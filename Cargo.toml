@@ -28,19 +28,19 @@ soroban-token-spec = { version = "23.0.2", path = "soroban-token-spec" }
 stellar-asset-spec = { version = "23.0.2", path = "stellar-asset-spec" }
 
 [workspace.dependencies.soroban-env-common]
-version = "=23.0.1"
-#git = "https://github.com/stellar/rs-soroban-env"
-#rev = "bd0c80a1fe171e75f8d745f17975a73927d44ecd"
+#version = "=23.0.1"
+git = "https://github.com/Oghma/rs-soroban-env"
+rev = "8dc49f7caad92396d2f9c73d08fb48a3e40fc683"
 
 [workspace.dependencies.soroban-env-guest]
-version = "=23.0.1"
-#git = "https://github.com/stellar/rs-soroban-env"
-#rev = "bd0c80a1fe171e75f8d745f17975a73927d44ecd"
+#version = "=23.0.1"
+git = "https://github.com/Oghma/rs-soroban-env"
+rev = "8dc49f7caad92396d2f9c73d08fb48a3e40fc683"
 
 [workspace.dependencies.soroban-env-host]
-version = "=23.0.1"
-#git = "https://github.com/stellar/rs-soroban-env"
-#rev = "bd0c80a1fe171e75f8d745f17975a73927d44ecd"
+#version = "=23.0.1"
+git = "https://github.com/Oghma/rs-soroban-env"
+rev = "8dc49f7caad92396d2f9c73d08fb48a3e40fc683"
 
 [workspace.dependencies.stellar-strkey]
 version = "=0.0.13"
